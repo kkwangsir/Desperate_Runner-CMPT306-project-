@@ -1,0 +1,100 @@
+Chen Wang game developing note.
+
+Oct. 15
+platform generator done
+Platform destroyer done
+
+
+Oct. 21
+randomise platform generation
+set platform betweeness a random range
+
+
+Oct 29.
+change platform to object pool to see how it performs.
+
+
+Nov 1.
+change back to normal platform randomise, without object pool. Will try to use pool later.
+
+
+Nov 3.
+still working on object pool to randomise platforms.
+
+
+Future Plans:
+add death and respawn
+add coins to catch
+connect with boss room stage.
+
+
+Nov 9.
+change back to object pooler
+
+
+Nov 12.
+platforms are generated with different height.
+PCG part done
+
+
+Nov 15.
+add a power jump by holding jump button
+
+Nov 19.
+add background
+optimize player collider with platform
+build a speed up function to increasing game difficulty 
+add death and restart
+
+
+Nov 22.
+boss stage main frame done
+enemy and bullet done
+scoreboard and lives board done
+reload the boss stage scene when lives empty
+
+
+Nov 25.
+points system done
+add coins to increase points
+main menu ,pause menu and death menu done
+buttons are working well
+sound effects added, catch coins, jump, death and BGM
+story animation added
+
+some bugs still need to be fixed
+
+
+Future plans:
+fix sound effects
+fix small bugs
+optimize game flow
+some more button to be added
+
+
+
+
+Dec 1.
+boss ai optimized
+video format problem need to be fixed later
+
+
+Dec 3.
+video problem solved
+updated Unity version to 5.6 for VideoPlayer API
+video scene can be loaded properly
+
+Dec 4.
+Unity's VidoePlayer API didn't work well with my video format
+then to solved the problem which is load secne after video,
+I added a LoadAfterTime script by counting seconds to load secene.
+
+
+Dec 6.
+bugs fixed
+optimize done
+ready to display
+
+Future plans:
+edit game balance  
+
